@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.tasks{
+    background-color: whitesmoke;
+    margin: 25px auto;
+    max-width: 700px;
+}
+#list{
+    min-height: 300px;
+
+}
+/* .form-group{
+    bottom: 0;
+} */
+.list-group-item{
+    border-radius: 0px;
+}
+.container{
+    flex-direction: row;
+    flex-basis: 400px;
+    height: 150px;
+    width: 400px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.login-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input{
+    margin-bottom: 15px;
+}
+
+.submit{
+    align-self: flex-start;
+}
+
+.btn{
+    right: 0;
+}
